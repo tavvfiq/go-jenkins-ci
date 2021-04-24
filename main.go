@@ -15,4 +15,5 @@ func main() {
 	ch := make(chan int)
 	go counter(ch)
 	fmt.Println(<-ch, <-ch, <-ch)
+	fmt.Println("test jenkins")
 }
